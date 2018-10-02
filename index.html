@@ -1,41 +1,90 @@
-<!-- This is the mandatory title/ heading stuff needed for the document to ever be picked up by Google/ other companies-->
-<!DOCTYPE html>
-<html>
-    <!-- This is the whole body that gets shown on the webpage -->
-    <head>
-        <title>Dave's Website</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <body>
-        <h1>The Story of Kal</h1>
-        <h2>First things first. I bet you want to see a picture! <em>Look how cute <strong>Kal</strong> is!!</em></h2>
-        <p><img id="kal" src="kal.JPG"></p>
-        <h3><strong>Dave's</strong> website is the best website cuz <strong>Dave's</strong> website's about Kal!</h3>
-        <h4>Also I have another page <a href="page2.html">Here</a></h4>
-        <p></p>
-        <p id="p2" class="tacos">Wondering where Kal got is name? <a href="http://dc.wikia.com/wiki/Kal-El_(Earth-One)"> Click Here</a></p>
-       <p></p>
-        <h4>Kal's favorite Toys!</h4>
-       <table>
-            <tr>
-                <th>Toy</th><th>Picture</th>
-            </tr>
-            <tr>
-                <td>Himalayan Chews</td><td><img src="himalayan.webp" width="100" height="100"></td>
-            </tr>
-            <tr>
-                <td>Stuffed Animals</td><td><img src="bear.webp" width="100" height="100"></td>
-            </tr>
-            <tr>
-                <td>Kong Toys</td><td><img src="kong.webp" width="100" height="100">></td>
-            </tr>
-        </table>
-        <h4>Wondering what makes KAl so <em>cute?!</em></h4>
-        <ol>
-            <li>Snuggles</li>
-            <li>Super Playful</li>
-            <li>Chases Squirrels</li>
-        </ol>
-    </body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Dave's Website!</title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid">
+         <div class="container">
+             <h1 class="display-4">The Story of Kal</h1>
+              <p class="lead">This is is the story all about how Dave's life got flipped-turned upside down</p>
+            </div>
+      </div>
+
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p><img id="kal" src="kal.JPG" alt="kal"></p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p><img id="kallarge" src="kallarge.JPG"></p>
+                        </div>
+                    </div>
+                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <h1 class="btn btn-success">Where is Kal From?</h1>
+            </div>
+            <div class="col-lg-8">
+                <h1>What are Kal's Favorite Things</h1>
+            </div>
+            <div class="col-lg-2">
+                <h1 class="btn btn-success">Kal's Favorite Places</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
