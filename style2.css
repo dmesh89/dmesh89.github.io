@@ -8,20 +8,31 @@
 }
 
 .lead{
+    text-align: center;
+}
+h1{
     text-align: center
 }
 
-}
-h1{
+h2{
     text-align: center;
 }
 
-#kal{
-    width: 400px;
-    border-color: black;
+#purple{
+    background-color:rgba(107, 145, 250, 0.979);
+    color: aliceblue
+}
+
+#firsttitle{
+    text-decoration: underline
+}
+.picture{
+    height: 250px;
+    border-color: aliceblue;
     border-style: solid;
-    border-width: 5px;
-    box-shadow: 5px;
+    border-radius: 20px
+    border-width: 4px;
+    box-shadow:45px;
     display: block;
     margin-left:auto;
     margin-right: auto; 
@@ -35,4 +46,8 @@ h1{
     display: block;
     margin-left:auto;
     margin-right: auto; 
+}
+
+.btn btn-success {
+    text-align: center
 }
