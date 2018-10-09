@@ -11,7 +11,9 @@
     text-align: center;
 }
 h1{
-    text-align: center
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 80px;
 }
 
 h2{
@@ -23,9 +25,7 @@ h2{
     color: aliceblue
 }
 
-#firsttitle{
-    text-decoration: underline
-}
+
 .picture{
     height: 250px;
     border-color: aliceblue;

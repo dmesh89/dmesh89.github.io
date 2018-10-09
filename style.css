@@ -2,7 +2,9 @@ body{
     background-image: url(mountain.jpg);
 }
 
+
 h1{
+    font-family: 'Dancing Script', cursive;
     color:turquoise;;
     background-color: whitesmoke;
     text-align: center;
